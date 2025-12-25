@@ -7,7 +7,7 @@ This repository contains experiments applying various deep learning architecture
 - **RNN/LSTM** (Recurrent Neural Networks with Long Short-Term Memory)
 - **Autoencoders** (AE, CAE, VAE)
 
-## 📁 Project Structure
+## Project Structure
 ├── AE, CAE, VAE.ipynb       # Autoencoder experiments
 
 ├── cnn.ipynb                # CNN model for time series forecasting
@@ -19,7 +19,7 @@ This repository contains experiments applying various deep learning architecture
 ├── market_data.xlsx         # Macroeconomic + financial time series dataset
 
 ├── README.md                # Project overview and documentation
-## 📊 Dataset
+## Dataset
 
 The file `market_data.xlsx` includes 17 macroeconomic and financial signals such as:
 
@@ -30,7 +30,7 @@ The file `market_data.xlsx` includes 17 macroeconomic and financial signals such
 
 The target variable is `'_MKT'`, representing future market returns.
 
-## 📈 Model Overview
+## Model Overview
 
 | Notebook         | Model Type        | Description                                   |
 |------------------|-------------------|-----------------------------------------------|
@@ -39,7 +39,7 @@ The target variable is `'_MKT'`, representing future market returns.
 | `rnn_new (1).ipynb` | LSTM-RNN        | Sequence modeling of macro-financial signals  |
 | `AE, CAE, VAE.ipynb` | Autoencoders  | Dimensionality reduction + unsupervised setup |
 
-## ⚙️ Requirements
+## Requirements
 
 All experiments are implemented in Python using:
 
